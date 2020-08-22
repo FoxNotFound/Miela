@@ -1,15 +1,14 @@
-/* for Firefox */
+/**                                                                                                                                                       Highlighted Text Color **/
 ::-moz-selection {
        background-color: black;
        color: white;
 }
-
-/* for Safari and Chrome */
 ::selection {
        background-color: black;
        color: white;
 }
 
+/**                                                                                                                                                       Link Glow **/
 a:hover {
 	text-shadow: orange 0 0 3px;
         color: #FFFFFF !important;
