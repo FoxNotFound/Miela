@@ -1,4 +1,14 @@
-::selection, ::-moz-selection {color: white; background: #F5DA81;}
+/* for Firefox */
+::-moz-selection {
+       background-color: black;
+       color: white;
+}
+
+/* for Safari and Chrome */
+::selection {
+       background-color: black;
+       color: white;
+}
 
 a:hover {
 	text-shadow: orange 0 0 3px;
