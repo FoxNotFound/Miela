@@ -10,7 +10,7 @@
 
 /**                                                                                                                                                       Link Glow **/
 a:hover {
-	text-shadow: grey 0 0 3px;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px purple;
         color: #FFFFFF !important;
 	text-decoration:gold;
 	-webkit-transition: all .4s linear 0s;

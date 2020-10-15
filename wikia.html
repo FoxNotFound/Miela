@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+   <link href="CSS/Wikia.css" rel="stylesheet">	
+   <link href="CSS/Rear.css" rel="stylesheet">	
+</head>
+<body>
+
+<div class="navbar">
+  <a href="Wikia.html">Home</a>
+  <a href="#connect">Connect</a>
+  <div class="dropdown">
+    <button class="dropbtn">Classes 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+  		<a href="msci100.html">MSCI100</a>
+  		<a href="math115.html">MATH115</a>
+  		<a href="math116.html">MATH116</a>
+  		<a href="che102.html">CHE102</a>
+  		<a href="phys115.html">PHYS115</a>
+  		<a href="coop.html">Coop</a>
+    </div>
+  </div> 
+</div>
+
+<div style="
+	padding:60px;
+	font-size:150%;
+	text-align:center;
+	color:darkgrey;
+	background:#620062">
+	<b>Management Engineering</b>
+	<br>
+	<div style="font-size:80%">
+	Term 1A
+	</div>
+</div>
+
+<div class="contain">
+	<div class="left" style="
+		background:#F3CEFF;
+		text:white;">
+		<div style="font-size:150%">
+		Upcoming Events
+		</div>
+	</div>
+	<div class="main" style="
+		background:darkgrey;
+		text:white;">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'cal')" id="defaultOpen">Calendar</button>
+  <button class="tablinks" onclick="openCity(event, 'lec')">Lecture Schedule</button>
+  <button class="tablinks" onclick="openCity(event, 'ta')">WEEF TA Schedule</button>
+  <button class="tablinks" onclick="openCity(event, 'due')">Regular Due Dates</button>
+</div>
+
+<div id="cal" class="tabcontent">
+<center>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=MWx1b2JlbjJAaGRzYi5jYQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb203NWVhYmFkMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb21mZDE5ZjIwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb21mNDZlZGZhMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb20zMWMwNjQwNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb201NWJmY2U2MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb20xNjYwNjRmZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb202YzJmNzhmNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb20yNDQwNDQ4MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb203MGI2MjBmYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb200YzkwNmY3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb20xMzkyM2QyOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb20xYzRlY2UyMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb21jNGY5MDA3NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=aGRzYi5jYV9jbGFzc3Jvb20xMmYzOGYyM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb20wNTc0NDc5NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb21kNDFjZjJiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb21lMDAzMmY5NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb204NmY4MzZkZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb201YzRjNTM3M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb202OGQ2ZDY0NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb202MDZiOWIxNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=aGRzYi5jYV9jbGFzc3Jvb204ZTAwMjY3MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%23137333&amp;color=%23263238&amp;color=%234a148c&amp;color=%23b80672&amp;color=%23b80672&amp;color=%233e2723&amp;color=%23202124&amp;color=%23004d40&amp;color=%231c3aa9&amp;color=%230047a8&amp;color=%233e2723&amp;color=%23a52714&amp;color=%23a52714&amp;color=%230B8043&amp;color=%23285418&amp;color=%23b80672&amp;color=%231c3aa9&amp;color=%23007b83&amp;color=%23007b83&amp;color=%231c3aa9&amp;color=%23174ea6&amp;color=%233e2723&amp;color=%231c3aa9" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</center>
+</div>
+
+<div id="lec" class="tabcontent">
+<iframe src="https://outlook.office365.com/calendar/published/dc274001e21941b8bf759f57fbac1e65@uwaterloo.ca/ac5d2957a3fa45a080e7703a3612033e11055018709645399890/calendar.html" style="border:solid 1px #777" width="700" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<div id="ta" class="tabcontent">
+  <p>Description</p>
+</div>
+
+<div id="due" class="tabcontent">
+  <p>Description</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+	</div>
+</div>
+
+ <footer>
+      <div class="footer">
+          <b>Contact</b>
+	<br>b33luo@uwaterloo.ca
+	<br>+1 (416) 668-3884
+	<br>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
